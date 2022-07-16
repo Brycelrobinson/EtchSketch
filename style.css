@@ -1,0 +1,83 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(156, 141, 141);
+    
+
+}
+
+.btnCtn{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.buttons{
+    margin-bottom: 60px;
+    border-radius: 30px;
+    padding: 8px;
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+    border: none;
+}
+
+.buttons:hover{
+    background-color: rgb(223, 126, 126);
+}
+
+#exterior{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    border: 5px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    color: white;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#block-container{
+    display: grid;
+    height: 600px;
+    width: 600px;
+    grid-gap: 0;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.blocks{
+    background-color: rgb(121, 113, 113);
+}
+
+.blocks:hover{
+    background-color: black;
+}
+
+.blocksClicked{
+    background-color: black;
+}
+
+#knob-container{
+    display: flex;
+}
